@@ -16,16 +16,19 @@ To install and use the project, follow these steps:
 
 - Clone this repository to your local environment.
 
-git clone https://github.com/L-Salazar/mobile_challenge.git
+`git clone https://github.com/L-Salazar/mobile_challenge.git`
 
 - Navigate to the project directory.
-cd mobile_challenge
+
+`cd mobile_challenge`
 
 - Run the command to fetch the necessary dependencies.
-flutter pub get
+
+`flutter pub get`
 
 - Start the application on an emulator or connected device.
-flutter run
+
+`flutter run`
 
 - Make sure the emulator or connected device has internet acess.
 
