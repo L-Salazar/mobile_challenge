@@ -1,0 +1,1 @@
+class WordNotFoundException implements Exception {}
