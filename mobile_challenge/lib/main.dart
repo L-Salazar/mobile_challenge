@@ -11,7 +11,8 @@ Future<void> main() async {
   Hive.init((await getApplicationDocumentsDirectory()).path);
   Hive.registerAdapter(WordAdapter());
   await Hive.openBox<Word>('words');
-  await Hive.openBox<Word>('favorites');
+  await Hive.openBox<Word>('favorites',
+      keyComparator: (dynamic k1, dynamic k2) => 1);
   await Hive.openBox<Word>('history',
       keyComparator: (dynamic k1, dynamic k2) => 1);
   await Env.i.load();
